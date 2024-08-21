@@ -1,0 +1,10 @@
+in this file I'm going to learn GCC parameter 
+=============================================
+
+first thing first 
+gcc -c is used to copmpile source files without linking
+gcc -o <output_file> specify the name of the output file. 
+gcc -wall is used to enable all warnings messages.
+gcc -werror is treating warnings as errors
+gcc -pedantic used to enable strict ISO C compliance.
+
