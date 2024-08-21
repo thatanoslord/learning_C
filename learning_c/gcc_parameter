@@ -8,4 +8,8 @@ gcc -wall is used to enable all warnings messages.
 gcc -werror is treating warnings as errors
 gcc -pedantic used to enable strict ISO C compliance.
 gcc -E is used to preprocess the input file and write the preprocessed output to standard output.
-gcc -S used to generate assembly code instead of object code 
+gcc -S used to generate assembly code instead of object code
+gcc -S -masm=intel / -masm=att : this option is used to specify assembly language syntax that should be used to generate assembly code.
+and there are 2 assembly codes: 
+the first one which is the par default called -masm=att and this should use at&t syntax, in this the source operand is listed first, followed by the distination operand.
+the second oen which -masm=intel and it specifies that the generated assembly code is using intel syntax, which is used by intel and some other processors manufactures in their documentation and programming exmaples. in this syntax destinatioon operand is listed first, followed by the source operand, and instructions  are genrally easier to read and write.
