@@ -25,3 +25,11 @@ example:
 	}
 the console will show this: 
 Hi  
+=================================================================
+sizeof() we can use the sizeof operator to determine the size in "bytes" of a specific data type ( int, char, float .....) or variables . the syntax of using this operator is :
+	sizeof(type)
+	type is the name of the data type I want to get the size of .
+	sizeof(int) ==> returns the size of intiger which is usually ( 4bytes)
+	sizeof(float) ==> returns the size of intiger which is usually ( 4bytes)
+	sizeof(double) ==> returns the size of intiger which is usually ( 8bytes)
+	sizeof(char) ==> returns the size of intiger which is usually ( 1bytes)
