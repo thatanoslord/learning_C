@@ -5,13 +5,23 @@ printf() function is use to print formated text to console it uses string at the
 	int age = 26; 
 	printf("my age is %d", age);
 	and it will show this " my age is 26;
-=======================================
-puts() function is used to print string with a new line to the console and it takes a single argument 
-example :
-	#include<stdio.h>
+================================================
+puts() function is used to print a single string with a new line to the console and it only accepts a single argument:
+example 
 	int main(){
-	puts("hello worlds!");
+	puts("Hello world!");
 	return 0;
-}
-and the console will show hello world! with new line 
-
+	}
+the console will show this:
+	Hello world!
+	new line
+===================================================================
+putchar()function is used to show only one character and it also accept only one single argument:
+example:
+	intmain(){
+	putchar('H');
+	putchar('i');
+	return 0;
+	}
+the console will show this: 
+Hi  
