@@ -1,0 +1,17 @@
+main function is the entry to C programming language code 
+and we write it like this 
+int main(){}
+printf() function is use to print formated text to console it uses string at the first "" argument and contains place holder for variables that will be changed into their values as an example 
+	int age = 26; 
+	printf("my age is %d", age);
+	and it will show this " my age is 26;
+=======================================
+puts() function is used to print string with a new line to the console and it takes a single argument 
+example :
+	#include<stdio.h>
+	int main(){
+	puts("hello worlds!");
+	return 0;
+}
+and the console will show hello world! with new line 
+
