@@ -33,3 +33,8 @@ sizeof() we can use the sizeof operator to determine the size in "bytes" of a sp
 	sizeof(float) ==> returns the size of intiger which is usually ( 4bytes)
 	sizeof(double) ==> returns the size of intiger which is usually ( 8bytes)
 	sizeof(char) ==> returns the size of intiger which is usually ( 1bytes)
+===================================================================================
+about #include every function has the right header to include in your source code when using a standard library function.
+and we can reach those headers by Consulting the documentations , Searching online , Checking the stadard library oor , use trial and errors..
+ if I include the wrong header the code will fail and it'll show error.
+
